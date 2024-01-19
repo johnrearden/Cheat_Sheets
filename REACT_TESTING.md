@@ -1,10 +1,12 @@
 # Testing in React
 
-Here's a list of stuff I don't want to forget before I come back to testing again.
+Here's a list of stuff I don't want to forget before I come back to testing again. The thinking is that creating this cheatsheet will be like chiselling the information directly onto my brain.
 
 ## Libraries
 @testing-library/react
+
 @testing-library/jest-dom
+
 @testing-library/user-event
 
 ## Using queries
