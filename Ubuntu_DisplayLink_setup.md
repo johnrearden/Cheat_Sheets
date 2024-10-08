@@ -6,6 +6,8 @@ Download the driver, and then run the instructions at the top of the page in the
 
 `
 sudo apt install ./Downloads/synaptics-repository-keyring.deb
+
 sudo apt update
+
 sudo apt install displaylink-driver
 `
