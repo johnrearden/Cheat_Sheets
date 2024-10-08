@@ -5,9 +5,9 @@ Navigate here - https://www.synaptics.com/products/displaylink-graphics/download
 Download the driver, and then run the instructions at the top of the page in the terminal
 
 `
-sudo apt install ./Downloads/synaptics-repository-keyring.deb
+sudo apt install ./Downloads/synaptics-repository-keyring.deb`
 
-sudo apt update
+`sudo apt update`
 
-sudo apt install displaylink-driver
+`sudo apt install displaylink-driver
 `
