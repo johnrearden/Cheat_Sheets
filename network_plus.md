@@ -3,8 +3,8 @@
 -  Mnemonic: "All People Seem To Need Data Processing"
 
 ### Layers
-7: Application
-6: Presentation
+7: Application  
+6: Presentation  
 5: Session
 4: Transport
 3: Network
