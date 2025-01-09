@@ -19,23 +19,34 @@ Working with : physical cable, looking at EM transmission across wireless
 Data Link Control (DLC) protocols / switching layer
 - MAC (Media Access Control) address on Ethernet : communication between cards
 Working with : Switch forwarding, MAC addresses
+Transmission unit : frame, used by ethernet
 
 ### Layer 3: Network
 Routing layer - layer associated with IP addresses
 Unit of communication : Frame 
+Working with: IP addresses
+Transimission unit : packet, used by TCP or UDP
 
 ### Layer 4: Transport
 Post office layer - TCP (Transmission Control Protocol) and UDP (User Datagram Protocol)
+Working with: TCP and UDP protocols and the port numbers associated with these
 
 ### Layer 5: Session Layer
 Communication Management between devices - start, stop, restart  
 Control protocols, tunneling protocols
+Working with: Tunnelling or setting up sessions between hosts
 
 ### Layer 6: Presentation Layer
 Encryption/decryption
 Character encoding
+Working with: Encryption
 
-### Layer 7: 
+### Layer 7: Application Layer
+This is where you come in 
+Working with: Code, Browser
+
+
+
 
 
 
