@@ -45,6 +45,12 @@ Working with: Encryption
 This is where you come in 
 Working with: Code, Browser
 
+![wrappers at layers](assets/data_communication_osi_layers.png)
+
+## Maximum Transmission Unit (MTU)
+The largest group of data that can be sent across a connection without fragmenting.
+Staying within the MTU minimizes overhead of chopping up data and reassembling.
+
 
 
 
