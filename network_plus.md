@@ -13,10 +13,12 @@
 
 ### Layer 1: Physical
 Concerned with signaling, cabling, connectors (no protocols) - check connections, swap adapter cards
+Working with : physical cable, looking at EM transmission across wireless
 
 ### Layer 2: Data-link
 Data Link Control (DLC) protocols / switching layer
 - MAC (Media Access Control) address on Ethernet : communication between cards
+Working with : Switch forwarding, MAC addresses
 
 ### Layer 3: Network
 Routing layer - layer associated with IP addresses
@@ -25,9 +27,15 @@ Unit of communication : Frame
 ### Layer 4: Transport
 Post office layer - TCP (Transmission Control Protocol) and UDP (User Datagram Protocol)
 
-### Session Layer
+### Layer 5: Session Layer
 Communication Management between devices - start, stop, restart  
 Control protocols, tunneling protocols
+
+### Layer 6: Presentation Layer
+Encryption/decryption
+Character encoding
+
+### Layer 7: 
 
 
 
