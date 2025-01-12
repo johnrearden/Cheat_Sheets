@@ -51,6 +51,60 @@ Working with: Code, Browser
 The largest group of data that can be sent across a connection without fragmenting.
 Staying within the MTU minimizes overhead of chopping up data and reassembling.
 
+---
+
+# Network Topologies
+- Star/ Hub and Spoke - one central device
+- Ring Networks (used in MAN and WAN networks) - data can avoid a break in the circle
+by looping back in the opposite direction
+- Bus network - single cable runs through a floor with a branch for each device - breaks can create
+segmentation or complete failure
+- Mesh network - many/all nodes connected to many/all others, common with IOT devices
+- Hybrid network - combination of some/all of the above
+
+# Network Types
+- ### Peer to peer
+    - Low cost
+    - Easy to deploy (no server)
+    - Difficult to administer
+    - Difficult to secure
+- ### Client/server
+    - No client/client communication
+    - High performance
+    - Easy to maintain - one central configuration point
+    - Cost (hardware needed) monetary and space
+- ### LAN 
+    - Local is relative - building or group of buildings
+    - Fast communication - 802.11 wireless and ethernet
+- ### MAN Metropolitan Area Network
+    - Geographically dispersed buildings/installations
+    - Used by local government, as they control the right-of-way to install fibre
+- ### WAN
+    - Connects LANs over distance
+    - Much slower than LANs
+
+### Storage
+    - NAS (Network Attached Storage) - file level access - entire file needs to be overwritten
+    - SAN (Storage Area Network) - more like local file access
+    - both require high network throughput, and usually require a dedicated network
+
+### MPLS (Multi Protocol Label Switching):
+    - Packets through the WAN have a Label
+    - Routing decisions are Easy
+    - Allow any kind of traffic - packet/frame etc.
+
+### mGRE (Multipoint Generic Router Encapsulation)
+    - Used extensively for Dynamic Multipoint VPN (DM-VPN)
+    - Common on CISCO routers
+    - VPN builds itself/ remote sites communicate to each other
+    - Tunnels are built dynamically, depending on demand, using a dynamic mesh
+
+### Software Defined WAN (SD-WAN)
+    - WAN built for the cloud
+    - Individual nodes on the network connect individually to services in the cloud
+
+
+
 
 
 
