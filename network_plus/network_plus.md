@@ -103,6 +103,9 @@ segmentation or complete failure
     - WAN built for the cloud
     - Individual nodes on the network connect individually to services in the cloud
 
+# LAN Demarcation Point (demarc)
+- The point at which responsibility for the network switches to external provider
+
 
 
 
