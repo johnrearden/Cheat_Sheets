@@ -105,6 +105,54 @@ segmentation or complete failure
 
 # LAN Demarcation Point (demarc)
 - The point at which responsibility for the network switches to external provider
+- Network Interface Unit (NIU) - device that determines the demarc
+- Smartjack
+    - More than a simple Interface
+    - Can be a circuit card in a chassis
+    - Contains diagnostic equipment enabling external provider to troubleshoot
+    - Has indicators visible to prem side of demarc : alerts, status indicators etc.
+
+
+# Virtual Networks
+If 100 physical servers are collapsed into one physical unit, what happens to the network?
+- Network Function Virtualization (NFV)
+- Manage from the hypervisor
+- Routing, switching, load balancing, firewalls : all Virtual
+
+### Hypervisor : Virtual Machine Manager (VMM)
+- Hardware Management (CPU, network, security)
+- Single Pane of Glass
+- Virtual switches
+- Virtual network interface cards (VNICs)
+
+# Satellite Networks
+Starlink, in LEO. Can have up to 250ms latency each direction. 50 mbit/s upload, 3mbit/s download
+Work off line-of-sight in 2Ghz band, so 'rain fade' a factor.
+
+---
+
+# Copper connections
+Bandwidth limited by physics, cheap and easy to maintain, often found in local WAN
+- DSL (Digital Subscriber Line) and ADSL (Asymmetric Digital Subscriber Line) - speed in > speed out
+Usually limited to 2 miles from CO (Central Office). Can get 200mbit/s down and 20mbit/s up, faster if closer to CO.
+- Cable Broadband. DOCSIS : Data over Cable Service Interface Specification. 1000Mbits down, 50 Mbits/s up
+- Fibre: Expensive, hard to repair. Long range, large capacity. Wavelength division multiplexing, SONET rings
+Actual transmission speed = ~0.7c
+
+- Twisted Pair connections - twist helps to reduce interference. 4 pairs in a cable. Pairs have different twist rates
+![Copper Cabling](assets/copper_cabling.png)
+- Coaxial Cabling - commonly used for TV.
+- Twin-axial cabling - similar, but 2 separate wires inside. Full duplex, only 5m range with 10gig ethernet.
+Low cost.
+
+# Structured cabling standards - ISO/IEC 11801
+- T568A and T568B 
+    - 8 conductors 100-ohm based twisted pair cabling (ethernet cables)
+    - A and B standards have a different set of colours.
+    - A and B are incompatible, and can't terminate against each other.
+![Colour Coding](assets/cable_colours.png)
+
+
 
 
 
