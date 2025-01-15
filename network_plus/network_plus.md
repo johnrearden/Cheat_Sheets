@@ -174,6 +174,7 @@ Low cost.
     - Single-mode fiber: Up to 100km without processing, expensive laser beam light source
 
 - Fiber Connectors:
+
 ![connectors](assets/fiber_connectors.jpeg)
     - st : Straight tip
     - sc : Subscriber connectors
@@ -185,7 +186,7 @@ Low cost.
     - RG6 / F-connector (Coaxial) : DOCSIS specification, for tv and cable modem
 
 - Media Converter:
-    - OSI Layer 1
+    - OSI Layer 1 - fiber2copper and copper2fibre, different copper to each other etc.
 
 
 
