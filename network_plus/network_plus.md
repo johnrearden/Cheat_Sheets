@@ -131,7 +131,7 @@ Work off line-of-sight in 2Ghz band, so 'rain fade' a factor.
 
 ---
 
-# Copper connections
+## Copper connections
 Bandwidth limited by physics, cheap and easy to maintain, often found in local WAN
 - DSL (Digital Subscriber Line) and ADSL (Asymmetric Digital Subscriber Line) - speed in > speed out
 Usually limited to 2 miles from CO (Central Office). Can get 200mbit/s down and 20mbit/s up, faster if closer to CO.
@@ -141,20 +141,51 @@ Actual transmission speed = ~0.7c
 
 - Twisted Pair connections - twist helps to reduce interference. 4 pairs in a cable. Pairs have different twist rates
 ![Copper Cabling](assets/copper_cabling.png)
+
+|Cat rating|Max Freq|Max bandwidth|Status with TIA|
+|----------|--------|-------------|---------------|
+|5|100MHz|100 Mbps|No longer|
+|5e|100MHz|1 Gbps| Recognized|
+|6|100MHz|10 Gbps| Recognized|
+|6a|250MHz|10 Gbps| Recognized|
+|7| 500MHz|10+ Gbps| Not recognized|
+|7a|1000MHz|40-100 Gbps| Not recognized|
+|8|2000MHz|40 Gbps|Not recognized|
+
 - Coaxial Cabling - commonly used for TV.
 - Twin-axial cabling - similar, but 2 separate wires inside. Full duplex, only 5m range with 10gig ethernet.
 Low cost.
 
-# Structured cabling standards - ISO/IEC 11801
+## Structured cabling standards - ISO/IEC 11801
 - T568A and T568B 
     - 8 conductors 100-ohm based twisted pair cabling (ethernet cables)
     - A and B standards have a different set of colours.
     - A and B are incompatible, and can't terminate against each other.
 ![Colour Coding](assets/cable_colours.png)
 
+## Optical Fibre
+- Pros: 
+    - No RF spectrum (hard to monitor or tap)
+    - Signal slow to degrade (transit over long distances)
+    - Immune to EM interference
 
+- Types:
+    - Multimode fiber: Up to 2km, inexpensive light source, i.e. LED
+    - Single-mode fiber: Up to 100km without processing, expensive laser beam light source
 
+- Fiber Connectors:
+![connectors](assets/fiber_connectors.jpeg)
+    - st : Straight tip
+    - sc : Subscriber connectors
+    - mt-rj : Mechanical Transfer Register Jack
 
+- Copper Connectors:
+    - RJ11 (Registered Jack type 11) : familiar telephone and DSL connection, 4+2
+    - RG45 (Registered Jack type 45) : 8 position, 8 conductor, for ethernet
+    - RG6 / F-connector (Coaxial) : DOCSIS specification, for tv and cable modem
+
+- Media Converter:
+    - OSI Layer 1
 
 
 
