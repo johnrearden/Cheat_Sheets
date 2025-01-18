@@ -25,6 +25,10 @@ application should be allowed/blocked on the network.
 
 # Networking Functions
 
+- CDN : Content Delivery Network - a network of caching servers which allows users to get data from a local server
+- VPN : Virtual Private Network - encrypted communication on an insecure medium. A VPN often uses a **concentrator/head-end**, a single access point for all of the users using that VPN. This is often integrated into a firewall, and is a purpose-built appliance. This is an ASIC, an application specific integrated circuit.  
+- QoS : Quality of service. A real-time video or audio stream may have a higher priority than a file transfer. Set prioritization for different applications.
+- TTL : Time to Live. Gives each hop (router/switch/firewall) the ability to decide if it should continue to propogate the encapsulated data (frame/packet) or drop it. Can be based either on number of network hops or a time limit. A packet or a cache is a good example. Default TTL on mac/linux is 64 hops, on windows 128. Typical hop count over the Internet is 12-16.
 
 
 
