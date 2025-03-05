@@ -8,7 +8,7 @@
 | 8 Common Ports            | [x] | [ ] | [ ] |
 | 9 Other Useful Protocosl  | [x] | [ ] | [ ] |
 | 10 Network Communication  | [x] | [ ] | [ ] |
-| 11 Wireless Networds      | [x] | [ ] | [ ] |
+| 11 Wireless Networks      | [x] | [ ] | [ ] |
 | 3       | [] | [ ] | [ ] |
 | 3       | [] | [ ] | [ ] |
 | 85 Command Line Tools     | [x] | [ ] | [ ] |
