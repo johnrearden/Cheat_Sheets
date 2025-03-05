@@ -88,6 +88,9 @@ Deleting an element from a multidimensional array
 
 ```new_vew = arr.ravel()``` creates a view, maintains the connection
 
+#### Joining and splitting arrays
+
+
 
 
 
