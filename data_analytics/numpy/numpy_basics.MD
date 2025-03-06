@@ -88,7 +88,33 @@ Deleting an element from a multidimensional array
 
 ```new_vew = arr.ravel()``` creates a view, maintains the connection
 
-#### Joining and splitting arrays
+#### Joining arrays
+
+- Concatenate:
+
+```np.concatenate((arr1, arr2), axis=?)```
+
+- Stack
+
+```np.stack((arr1, arr2))``` Creates a new dimension. Result will have higher dimensionality
+
+- hstack and vstack
+
+Use for 1 and 2d arrays. Use dstack for further dimensions
+
+#### Splitting arrays
+
+```arr = np.arange(24).reshape(4, 6)```
+
+```np.split(arr, 4)``` results in 4 arrays. The source array must be **equally** divisible by 4
+
+- array_split
+
+```arr = np.arange(13)```
+
+```np.array_split(arr, 3)``` Will divide the array in 3, with non-equal lengths if necessary
+
+- hsplit and vsplit for splitting along rows and columns
 
 
 #### Unique elements
@@ -110,7 +136,9 @@ Deleting an element from a multidimensional array
 ```np.swapaxes(arr, 0, 3)``` Similar, but swaps the positions of first and 4th axes. Again, examine arr.shape before and after to see the change
 
 
+#### Reversing an array
 
+```np.flip(arr, axis=?)```
 
 
 
