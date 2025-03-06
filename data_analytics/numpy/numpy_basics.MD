@@ -96,6 +96,19 @@ Deleting an element from a multidimensional array
 
 ```np.unique(arr, return_index=True, return_counts=True```
 
+#### Transposing, moving and swapping axes
+- Transpose
+
+```np.transpose(2darr)```
+
+- Move axis
+
+```np.moveaxis(arr, 0, -1)``` Move the axis currently at position 0 to the end of the list of axes. So arr.shape (2, 3, 4) becomes arr.shape (3, 4, 2)
+
+- Swap axes
+
+```np.swapaxes(arr, 0, 3)``` Similar, but swaps the positions of first and 4th axes. Again, examine arr.shape before and after to see the change
+
 
 
 
