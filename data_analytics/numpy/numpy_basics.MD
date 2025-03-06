@@ -91,6 +91,12 @@ Deleting an element from a multidimensional array
 #### Joining and splitting arrays
 
 
+#### Unique elements
+```arr = np.random.randint(1, 11, 20)```
+
+```np.unique(arr, return_index=True, return_counts=True```
+
+
 
 
 
