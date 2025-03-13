@@ -140,6 +140,12 @@ Use for 1 and 2d arrays. Use dstack for further dimensions
 
 ```np.flip(arr, axis=?)```
 
+#### Getting the location of the min value of an array
+
+```arr = np.random.randint(1, 100, (2, 3, 4))```
+
+```np.unravel_index(np.argmin(arr), arr.shape)```
+
 
 
 
