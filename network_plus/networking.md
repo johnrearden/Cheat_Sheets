@@ -31,4 +31,30 @@ application should be allowed/blocked on the network.
 - TTL : Time to Live. Gives each hop (router/switch/firewall) the ability to decide if it should continue to propogate the encapsulated data (frame/packet) or drop it. Can be based either on number of network hops or a time limit. A packet or a cache is a good example. Default TTL on mac/linux is 64 hops, on windows 128. Typical hop count over the Internet is 12-16.
 
 
+# Wireless Networking
+
+- Managed by the IEEE LAN/MAN 802.11, Institute of Electrical and Electronics Engineers
+- Wi-Fi Alliance handles interoperability testing
+![wifi-types diagram](assets/wifi-types.png)
+- 4G LTE (Long Term Evolution) converged standard
+    - Based on GSM and EDGE
+    - Download rates of 150 Mbit/s
+- LTE-A (LTE advanced)
+    - Download rates of 300 Mbits/s
+- 5G
+    - Launched in 2020
+    - Higher frequencies
+    - Eventually 10 Gbits/s, currently 100-900 Mbits/s
+    - Significant IOT impact - more bandwidth, larger data transfers
+
+# Satellite Networking
+
+- High cost, 100Mbit/s down 5 Mbit/s up
+- For remote, difficult to network sites
+- Starlink latency 40ms up and down, working on 20ms 
+- Trad latency = 250ms each way
+- Requires line of sight (rain fade)
+
+     
+
 
