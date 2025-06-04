@@ -104,6 +104,68 @@
         - file transfer
          
 
+# Other useful protocols
+
+### ICMP Internet Control Messaging Protocol
+
+- Text messaging for your network devices, not used for data transfer
+- Carried by IP but distinct from TCP and UDP
+- Used by 'ping'
+
+### GRE Generic Routing Encapsulation
+
+- The tunnel between 2 endpoints - they appear to be directly connected to each other
+- No encryption - use VPN for this
+- Concentrator - Encyption/decryption access device - actual physical appliance - ASIC
+
+### IPSec (Internet Protocol Security)
+
+- Security for OSI layer 3 - authentication and encryption for every packet
+- Confidentiality and integrity/anti-replay : encryption and packet-signing
+- Very standardized : common to use multi-vendor implementations.
+- 2 core protocols:
+    - Authentication Header (AH)
+    - Encapsulation Security Payload (ESP)
+
+### Internet Key Exchange (IKE)
+
+- Agree on encryption/decryption keys, without sending key across network
+- Builds a security association
+- Phase 1 
+    - Use Diffie-Hellman to create a shared secret key
+    - udp/500
+    - ISAKMP (Internet Security Association and Key Management Protocol)
+- Phase 2
+    - Include encapsulated data over ESP tunnel
+
+![tunnel modes](assets/ipsec_modes.png)
+
+    - Tunnel mode more common, as the new IP Header refers only to the concentrator, and
+    the original destination is hidden - no unencypted meta-data about packet
+
+### Network communication
+
+- Unicast - one station sending info to one other
+    - one-to-one
+    - web surfing, file transfers
+    - Doesn't scale optimally for real-time streaming media (one to many)
+- Multicast - delivery of info to interested systems
+    - One to many-of-many
+    - multimedia, stock exchange updates, dynamic routing updates
+    - very specialized, difficult to scale across large networks
+- Anycast - single IP address has multiple paths to 2 or more endpoints
+    - one to one-of-many
+    - configure the same anycast address on different devices
+    - looks like any other unicast address
+    - dns is a good example - closest dns server responds
+- Broadcast - send info to everyone at once
+    - one-to-all
+    - scope limited to local broadcast domain, can't send to entire internet
+    - routing updates and ARP requests
+
+
+
+
 
 
 
