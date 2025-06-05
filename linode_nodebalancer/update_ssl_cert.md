@@ -3,6 +3,8 @@
 Here's a link to a nice docker implementation: 
 [ianepperson github](https://github.com/ianepperson/lets-encrypt-linode/blob/master/install_cert.sh)
 
+[link to community.letsencrypt](https://community.letsencrypt.org/t/how-to-add-a-post-auto-renew-hook-for-a-single-certificate/123607/4)
+
 ### Steps
 - Create a linode API key
 - Run ```linode-cli configure --token```
